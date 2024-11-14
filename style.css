@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+
+h1 {
+  font-family: "Pixelify Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c0b09
+}
+canvas {
+  display: block;
+  margin: auto;
+}
+
+div {
+  background-color: #331704;
+  font-family: "Pixelify Sans", serif;
+  font-size: 15px;
+  font-style: normal;
+  color: #c9981a;
+}
+
+.banner {
+  padding: 0px;
+  letter-spacing: 15px;
+  font-size: 100%;
+  text-align: CENTER;
+  margin: auto;
+  border: 1px solid #dbaf35;
+  color: #ebd463;
+  background: #331704
+}
+
+.user-interface {
+  border: 1px solid #dbaf35;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 0%;
+  justify-content: center;
+  padding: 5px;
+}
+
+#button-holder {
+  border: 1px solid #dbaf35;
+  background: #331704
+  
+}
+
+#sketch-holder {
+  border: 1px solid #dbaf35;
+  background-color: #1c0b09
+ 
+}
+
+#more-info {
+  margin-top: 20px;
+  border: 1px solid #dbaf35;
+  height: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 20px;
+  text-align: center
+  
+
+}
+
+
+button{
+  float: left;
+  display: block;
+  padding: 10px;
+  background-color: #e6bb57;
+  font-family: "Pixelify Sans", serif;
+  font-size: 15px;
+  font-style: normal;
+  
+}
+
+button:hover{
+  display: block;
+  padding: 10px;
+  background-color: #b08005;
+  font-family: "Pixelify Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+
+p {
+  padding-left: 10px;
+}
